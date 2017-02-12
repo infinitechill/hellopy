@@ -1,0 +1,39 @@
+  %{--------------------------------------------------------------+
+   | HELLO PY                                                     |
+   | Version: 1.0                                                 |
+   | File:               ~/apps/hellopy/hellopy.sh                |
+   | DEPENDENCIES:       Python                                   |
+   |                                                              |
+   | Hello Py                                                     |
+   | -------------------------------------------------            |
+   |     a bash script that takes an output name and writes       |
+   |     boiler-plate python code including an example class.     |
+   |     hello world is printed and a basic operation is          |
+   |     performed on the class data members.                     |
+   |                                                              |
+   | Setup:                                                       |
+   |                                                              |
+   |    $ mkdir -p ~/apps/hellopy/new                             |
+   |    $ cd hellopy (the directory this file is in)              |
+   |    $ cp -r * ~/apps/hellopy                                  |
+   |    $ cd ~/apps/hellopy                                       |
+   |    $ chmod a+x hellopy.sh                                    |
+   |    $ ln -s ~/apps/hellopy/hellopy.sh  /usr/local/bin/hellopy |
+   |    $ echo "PATH=/usr/local/bin/:\${PATH}" >> ~/.bash_profile |
+   |                                                              |
+   | Uninstall:                                                   |
+   |                                                              |
+   |    $ rm -r ~/apps/hellopy                                    |
+   |    $ rm /usr/local/bin/hellopy                               |
+   |                                                              |
+   | Usage:                                                       |
+   |                                                              |
+   |    $ hellopy [outputname]                                    |
+   |                                                              |
+   | Examples:                                                    |
+   |                                                              |
+   |    $ hellopy cool                                            |
+   |                                                              |
+   | Public Domain Software -- Free to Use as You Like            |
+   | infinitechill.net - By J. Volmer                             |
+   +--------------------------------------------------------------%}
